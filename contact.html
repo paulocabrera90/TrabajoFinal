@@ -29,8 +29,61 @@
                 
             </div>
         </header>
-        <main></main>
-        <footer></footer>
+        <main>
+            <div class="container-main">
+                <div class="container-form">
+                    <form action="#" method="post" id="contact_form">
+                        <div class="name">
+                          <label for="name"></label>
+                          <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                        </div>
+                        <div class="email">
+                          <label for="email"></label>
+                          <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                        </div>
+                        <div class="telephone">
+                          <label for="name"></label>
+                          <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                        </div>
+                        <div class="subject">
+                          <label for="subject"></label>
+                          <select placeholder="Subject line" name="subject" id="subject_input" required>
+                            <option disabled hidden selected>Subject line</option>
+                            <option>I'd like to start a project</option>
+                            <option>I'd like to ask a question</option>
+                            <option>I'd like to make a proposal</option>
+                          </select>
+                        </div>
+                        <div class="message">
+                          <label for="message"></label>
+                          <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                        </div>
+                        <div class="submit">
+                          <input type="submit" value="Send Message" id="form_button" />
+                        </div>
+                      </form><!-- // End form -->
+                </div>
+                <div class="container-map">
+                    <div class="map">
+                        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.8630771360574!2d-66.24741491542858!3d-33.28082802531229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43e0596d9b4d7%3A0x87ab135ff7921042!2zMzPCsDE2JzUwLjgiUyA2NsKwMTQnNTAuOCJX!5e0!3m2!1ses-419!2sar!4v1653174249046!5m2!1ses-419!2sar"
+                        width="780" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>           
+        </main>
+        <footer>
+            <div class="container-footer">
+                <div class="container-footer-info">
+                    <div class="footer-info">
+                        <h3>Sobre Nosotros</h3>
+                        <p>Somos una empresa dedicada a la venta de ropa nueva, con una amplia gama de productos, atendemos a todo tipo de clientes, ven y conoce nuestra tienda.</p>
+                    </div>
+                    <div class="footer-info">
+                        <h3>Información de Contacto</h3>
+                        <p>Telefono: +57 (1) 789-456-7891</p>
+                        <p>Dirección: Calle 39 N° 12-34 Barrio San Jorge</p>
+                        <p>Correo Electrónico: <span>
+        </footer>
     </div>
 
 
